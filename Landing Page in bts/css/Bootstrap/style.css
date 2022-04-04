@@ -1,0 +1,64 @@
+nav {
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+#landing {
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+body {
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+*,
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.h2 {
+    text-align: center;
+    color: red;
+    font-size: 50px !important;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.vxscqis {
+    width: 20%;
+    height: 3px;
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    position: absolute;
+    left: 40%;
+    right: 50%;
+}
+
+#form-email {
+    position: relative;
+    background-color: #ffff;
+}
+
+button#submit {
+    position: absolute;
+    left: 80%;
+    top: 64px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.white {
+    background: rgb(218, 174, 81);
+    background: -moz-linear-gradient(254deg, rgba(218, 174, 81, 1) 33%, rgba(213, 51, 105, 1) 87%);
+    background: -webkit-linear-gradient(254deg, rgba(218, 174, 81, 1) 33%, rgba(213, 51, 105, 1) 87%);
+    background: linear-gradient(254deg, rgba(218, 174, 81, 1) 33%, rgba(213, 51, 105, 1) 87%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#daae51", endColorstr="#d53369", GradientType=1);
+}
+
+@media (max-width: 999px) {
+    .imgfooter {
+        display: none;
+    }
+}
